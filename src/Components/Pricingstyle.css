@@ -1,0 +1,123 @@
+.g{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: azure;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.g1 ,.g2 ,.g3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+ width: 50%;
+ height: 70vh;
+ border: 2px solid #eee;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 4%;
+
+
+}
+
+.g1 h1,.g2 h1,.g3 h1{
+    font-size: 4rem;
+}
+
+.btn-bg{
+    width: 45%;
+    height: 10%;
+    background-color: yellow;
+    color: #eee;
+    margin-bottom: 5%;
+}
+
+.bar{
+    height: 0.2rem;
+    width: 10%;
+    background-color: #eee;
+
+}
+
+@media screen  and (max-width:1050px){
+    .g{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color: azure;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .g1 h1,.g2 h1,.g3 h1{
+            font-size: 1.7rem;
+        }
+        .g1 ,.g2 ,.g3{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+         width: 43%;
+         height: 43vh;
+         border: 2px solid #eee;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 4%;
+        
+        
+        }
+        .btn-bg{
+            width: 69%;
+            height: 9%;
+            background-color: yellow;
+            color: #eee;
+            margin-bottom: 5%;
+        }
+    
+}
+
+@media screen  and (max-width:450px){
+
+    .g{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.g1 h1,.g2 h1,.g3 h1{
+    font-size: 1.7rem;
+}
+.btn-bg{
+    width: 59%;
+    height: 9%;
+    background-color: yellow;
+    color: #eee;
+    margin-bottom: 5%;
+}
+.g1 ,.g2 ,.g3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+ width: 50%;
+ height: 47vh;
+ border: 2px solid #eee;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 4%;
+
+
+}
+
+}

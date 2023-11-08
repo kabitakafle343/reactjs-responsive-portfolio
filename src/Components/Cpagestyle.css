@@ -1,0 +1,31 @@
+.f{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   max-width: 600px;;
+    color: aliceblue;
+   padding: 2rem 2rem;
+}
+
+.f label{
+    margin-top: 3%;
+   
+}
+.f textarea,.f button{
+    margin-top: 3%;
+
+}
+.f button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: yellow;
+    color: black;
+}
+.f input,.f textarea{ background-color: rgba(255,255,255,0.1);
+   border:rgba(255,255,255,0.1) ;
+    cursor: pointer;
+}
+.f input{
+    height:5vh;
+
+}

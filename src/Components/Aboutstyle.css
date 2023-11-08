@@ -1,0 +1,164 @@
+.a{
+    display: flex;
+    flex-direction:row;
+position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 45vh;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+}
+.im img{
+    width:20%
+}
+
+.s
+{
+    width: 40%;
+    margin-right: 55%;
+}
+
+  
+ 
+.im1, .im2 {
+    position:absolute;
+    top: 19%;
+    left: 64%;
+  }
+  
+  .im2 {
+    left: 55%;
+    top:40% /* Adjust the left position as needed */
+  
+  }
+  .s button{
+    width: 22%;
+    height: 6vh;
+    background-color: yellow;
+  }
+
+  .s h1,.s p,.s button{
+    margin-top: 3%;
+  }
+
+  @media screen and (max-width:1300px){
+    .a{
+        display: flex;
+        flex-direction:column;
+    position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 40vh;
+     margin-bottom: 4%;
+   
+        
+    }  
+    .s h1,.s p,.s button{
+        margin-top: 3%;
+        font-size: 1.4rem;
+      }
+      .s button{
+        width: 33%;
+        height: 5vh;
+        background-color: yellow;
+      }
+      .im1, .im2 {
+        position:absolute;
+        top: 33%;
+        left: 64%;
+      }
+      
+      .im2 {
+        left: 55%;
+        top:40% /* Adjust the left position as needed */
+      
+      }
+      .im img{
+        width:30%
+    }
+}
+  
+
+@media screen and (max-width:700px){
+    .a{
+        display: flex;
+        flex-direction:column;
+    position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 30vh;
+     
+   
+        
+    }  
+    .s h1,.s p,.s button{
+        margin-top: 3%;
+        font-size: 0.8rem;
+      }
+      .s button{
+        width: 33%;
+        height: 4vh;
+        background-color: yellow;
+      }
+      .im1, .im2 {
+        position:absolute;
+        top: 33%;
+        left: 64%;
+      }
+      
+      .im2 {
+        left: 55%;
+        top:40% /* Adjust the left position as needed */
+      
+      }
+      .im img{
+        width:30%
+    }
+}
+
+
+@media screen and (max-width:340px){
+    .a{
+        display: flex;
+        flex-direction:column;
+    position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 35vh;
+     
+   
+        
+    }  
+    .s h1,.s p,.s button{
+        margin-top: 3%;
+        font-size: 0.6rem;
+      }
+      .s button{
+        width: 33%;
+        height: 4vh;
+        background-color: yellow;
+      }
+      .im1, .im2 {
+        position:absolute;
+        top: 33%;
+        left: 64%;
+      }
+      
+      .im2 {
+        left: 55%;
+        top:40% /* Adjust the left position as needed */
+      
+      }
+      .im img{
+        width:30%
+    }
+}
+  
